@@ -1,3 +1,4 @@
+import './about.css';
 import profilImg from '../../img/profile-img.jpg';
 
 
@@ -9,13 +10,13 @@ export default function AboutSection(){
   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
 </div>
 
-<div className="container" data-aos="fade-up" data-aos-delay="100">
+<div className="container" data-aos="fade-up" data-aos-delay="90">
 
   <div className="row gy-4 justify-content-center">
-    <div className="col-lg-4">
+    <div className="col-lg-4 about-img">
       <img src={profilImg} className="img-fluid" alt=""/>
     </div>
-    <div className="col-lg-8 content">
+    <div className="col-lg-6 content">
       <h2>UI/UX Designer &amp; Web Developer.</h2>
       <p className="fst-italic py-3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
