@@ -60,7 +60,7 @@
     color: var(--contrast-color);
     background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
   }
-  @media (min-width: 1200px) and (max-width: 1600px) {
+  @media (min-width: 1200px) {
    .header .header-toggle{
     display:none;
    

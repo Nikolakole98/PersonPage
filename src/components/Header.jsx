@@ -9,11 +9,11 @@ import { MdContactMail } from "react-icons/md";
 
 export default function Header() {
 return(
-<header id="header" className="header d-flex flex-column justify-content-center">
+<header id="header" className="header d-flex flex-column justify-content-center dark-background">
 
 <i className="header-toggle d-xl-none bi bi-list"><HiMenu/></i>
 
-<nav id="navmenu" className="navmenu">
+<nav id="navmenu" className="navmenu dark-background">
   <ul>
     <li><a href="#hero" className="active"><i><IoHome/></i><span>Home</span></a></li>
     <li><a href="#about"><i><BsPersonFill/></i><span>About</span></a></li>
